@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_BadanUsaha</name>
+   <tag></tag>
+   <elementGuidId>aa3012ed-b968-4aa8-99f5-235b98c5f64f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='main_ddlbadanusaha']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#main_ddlbadanusaha</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>ad0c3e1f-4a9e-4b97-8108-e64ad7668216</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$main$ddlbadanusaha</value>
+      <webElementGuid>07426b84-171a-4bef-a85c-f5addf778971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ctl00$main$ddlbadanusaha\',\'\')', 0)</value>
+      <webElementGuid>387f6313-b8c3-4a46-b321-db82297e8ac0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>main_ddlbadanusaha</value>
+      <webElementGuid>9af9137b-0d1f-40d3-a156-44109f61eb0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>8acd40df-d42f-4a68-8739-570cd3b38326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+		Select One
+		PT
+		CV
+		Perorangan
+		Lawyer
+
+	</value>
+      <webElementGuid>0d6ae96c-1b33-430e-961f-2e30bc13a4b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_ddlbadanusaha&quot;)</value>
+      <webElementGuid>5ae9dcd6-7d99-4975-8748-14432f77b5f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='main_ddlbadanusaha']</value>
+      <webElementGuid>2402d334-0c78-4469-bb70-a665c5323790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab1']/div/div/div[3]/div/select</value>
+      <webElementGuid>7beb1902-6309-4381-99d5-69a5b607378c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Badan Usaha'])[1]/following::select[1]</value>
+      <webElementGuid>9e6c5f65-5498-441a-a7a7-8a2442b4a54e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Perusahaan'])[1]/following::select[1]</value>
+      <webElementGuid>8d33f5af-f072-4459-813e-2d4701c3d00d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Usaha'])[1]/preceding::select[1]</value>
+      <webElementGuid>69aa82ab-f623-40bd-8187-dd9e0c40ca2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Perusahaan'])[1]/preceding::select[1]</value>
+      <webElementGuid>31b6b199-5363-4c6b-bf07-a29f981e1516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>8253d214-f475-4850-8a1a-e669453b7328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$main$ddlbadanusaha' and @id = 'main_ddlbadanusaha' and (text() = '
+		Select One
+		PT
+		CV
+		Perorangan
+		Lawyer
+
+	' or . = '
+		Select One
+		PT
+		CV
+		Perorangan
+		Lawyer
+
+	')]</value>
+      <webElementGuid>0640b33c-45f5-4bf9-9ba0-c0aa12b7514a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

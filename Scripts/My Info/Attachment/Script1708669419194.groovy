@@ -1,0 +1,67 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://172.16.27.20/NewMysystemFirda/Apps/fams/MasterVendorAdd.aspx')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Object Repository/NewMySystem/Page_Login Mysystem/input_txtusername'), GlobalVariable.login)
+
+WebUI.setText(findTestObject('Object Repository/NewMySystem/Page_Login Mysystem/input_txtpassword'), GlobalVariable.pass)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Login Mysystem/btnsubmit'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/select_Menu'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/select_FAMS'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/expand'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/select_MasterVendor'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/buttonAddVendor'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/select_BadanUsaha'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/select_CV'))
+
+WebUI.click(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/Page_Dashboard New Mysystem/a_Dokumen'))
+
+String userDir = RunConfiguration.getProjectDir() + GlobalVariable.pathfoto
+
+path = userDir.replace('/', '\\');
+
+WebUI.delay(5)
+
+WebUI.uploadFile(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/input_CompanyProfile'), path)
+
+WebUI.uploadFile(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/input_KTP Pemilik'), path)
+
+WebUI.uploadFile(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/input_AktaPendirian1'), path)
+
+WebUI.uploadFile(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/input_AktaPendirian2'), path)
+
+WebUI.uploadFile(findTestObject('Object Repository/NewMySystem/Page_Dashboard New Mysystem/input_AktaPendirian3'), path)
+
